@@ -123,12 +123,12 @@
             android:text="A te válaszásod"
             android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/eredmeny"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Eredmény: Ember: 0 Conputer: 0"
-            android:textSize="20sp" />
+<!--        <TextView-->
+<!--            android:id="@+id/eredmeny"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Eredmény: Ember: 0 Conputer: 0"-->
+<!--            android:textSize="20sp" />-->
 
 
         <LinearLayout
