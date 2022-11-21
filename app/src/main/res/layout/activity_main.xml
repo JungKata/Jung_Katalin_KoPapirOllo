@@ -139,29 +139,26 @@
 
             <ImageButton
                 android:id="@+id/koButton"
-                android:layout_width="140dp"
-                android:layout_height="140dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginEnd="15dp"
-                android:src="@drawable/rock"
-                android:scaleType="centerInside"
-                 />
+                android:scaleType="fitXY"
+                android:src="@drawable/rock" />
 
             <ImageButton
                 android:id="@+id/papirButton"
-                android:layout_width="140dp"
-                android:layout_height="140dp"
-                android:src="@drawable/paper"
-                android:scaleType="centerInside"
-                 />
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/paper" />
 
             <ImageButton
                 android:id="@+id/olloButton"
-                android:layout_width="140dp"
-                android:layout_height="140dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_marginStart="15dp"
-                android:src="@drawable/scissors"
-                android:scaleType="centerInside"
-               />
+                android:scaleType="fitXY"
+                android:src="@drawable/scissors" />
 
         </LinearLayout>
 

@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else if (jatekos == 0 && robotDontes == 2 || jatekos == 1 && robotDontes == 0 || jatekos == 2 && robotDontes == 1)  {
             ember++;
-            Eredmeny.setText("Eredmény: Ember: " + ember + " Conputer: " + gep);
+            //Eredmeny.setText("Eredmény: Ember: " + ember + " Conputer: " + gep);
             RobotElet();
 
 
@@ -193,6 +193,7 @@ public class MainActivity extends AppCompatActivity {
     private void Kezdes(){
         ensziv = 0;
         robotelet = 0;
+        dontetlenertek = 0;
         gepValasztas.setImageResource(R.drawable.rock);
         enValasztas.setImageResource(R.drawable.rock);
         jatekoslife1.setImageResource(R.drawable.heart2);
