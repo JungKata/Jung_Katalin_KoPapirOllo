@@ -121,14 +121,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="A te válaszásod"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
 
-<!--        <TextView-->
-<!--            android:id="@+id/eredmeny"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Eredmény: Ember: 0 Conputer: 0"-->
-<!--            android:textSize="20sp" />-->
+        <TextView
+          android:id="@+id/eredmeny"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            />
+        <!-- android:text="Eredmény: Ember: 0 Conputer: 0"-->
 
 
         <LinearLayout
@@ -139,26 +139,28 @@
 
             <ImageButton
                 android:id="@+id/koButton"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
                 android:layout_marginEnd="15dp"
                 android:src="@drawable/rock"
+                android:scaleType="centerInside"
                  />
 
             <ImageButton
                 android:id="@+id/papirButton"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
                 android:src="@drawable/paper"
-
+                android:scaleType="centerInside"
                  />
 
             <ImageButton
                 android:id="@+id/olloButton"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
                 android:layout_marginStart="15dp"
                 android:src="@drawable/scissors"
+                android:scaleType="centerInside"
                />
 
         </LinearLayout>

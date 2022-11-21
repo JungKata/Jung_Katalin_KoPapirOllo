@@ -116,7 +116,6 @@ public class MainActivity extends AppCompatActivity {
         }
         else {
             gep++;
-            Eredmeny.setText("Eredmény: Ember: " + ember + " Conputer: " + gep);
             EmberElet();
 
         }
