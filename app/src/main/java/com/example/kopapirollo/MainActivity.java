@@ -194,6 +194,7 @@ public class MainActivity extends AppCompatActivity {
         ensziv = 0;
         robotelet = 0;
         dontetlenertek = 0;
+        DontetlenekSzama.setText("Döntetlenek száma: " + dontetlenertek);
         gepValasztas.setImageResource(R.drawable.rock);
         enValasztas.setImageResource(R.drawable.rock);
         jatekoslife1.setImageResource(R.drawable.heart2);
